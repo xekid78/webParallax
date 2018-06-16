@@ -1,0 +1,52 @@
+html, body {
+  overflow: auto;
+}
+
+body {
+  background: #006;
+  height: 2000px;
+}
+
+.ball {
+  background-color: #C60;
+  border-radius: 50px;
+  color: #FFF;
+  font-size: 50px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0;
+  position: fixed;
+  text-align: center;
+  transform: rotate(90deg);
+  width: 100px;
+}
+
+#one {
+  top: 0;
+  left: 0;
+}
+
+#two {
+  top: 50px;
+  left: 0;
+}
+
+#three {
+  top: 100px;
+  left: 0;
+}
+
+#four {
+  top: 150px;
+  right: 0px;
+}
+
+#five {
+  top: 200px;
+  right: 0;
+}
+
+#six {
+  top: 250px;
+  right: 0;
+}
